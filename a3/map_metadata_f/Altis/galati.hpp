@@ -1,0 +1,59 @@
+/* [2017,10,10,14,02] */
+/* CfgWorlds >> Altis >> Names >> galati */
+ 
+areaPosition[]={10343.8, 19064.9}; // Position x, y
+areaRadiusA=281.58; // radius A of the location
+areaRadiusB=227.42; // radius B of the location
+areaAngle=0; // Rotation of the location
+demography=CIV; // Demography
+ 
+accessPoints[] = // Types: 0 - generic; 1 - on road; 2 - water; 3 - in forest
+// [Type, [posX, posY], [radiusA, radiusB, angle]]
+{
+	{LOCATION_AREA_ACCESSPOINT, {9697.21, 18846.3}, 49.42},
+	{LOCATION_AREA_ACCESSPOINT_ROAD, {9780.94, 18828.8}, 115.67},
+	{LOCATION_AREA_ACCESSPOINT_ROAD, {9929.87, 18644.8}, 51.3},
+	{LOCATION_AREA_ACCESSPOINT, {9917.22, 19374.7}, 126.43},
+	{LOCATION_AREA_ACCESSPOINT_ROAD, {10226.3, 19664.2}, 138.24},
+	{LOCATION_AREA_ACCESSPOINT, {10282.9, 18183}, 359.43},
+	{LOCATION_AREA_ACCESSPOINT_ROAD, {10361.6, 19815.3}, 233.74},
+	{LOCATION_AREA_ACCESSPOINT, {10961.4, 19881.3}, 218.51},
+	{LOCATION_AREA_ACCESSPOINT_ROAD, {11413.1, 18855.6}, 315.69}
+};
+ 
+landmarks[] = 
+{
+};
+ 
+class Areas
+{
+	vehicles[] = // Types: 0 - truck or cars; 1 - Cars only; 2 - trucks only; 20 - air; 21 - planes; 22 - helicopters
+	// [Type, [posX, posY], [radiusA, radiusB, angle]]
+	{
+		{LOCATION_AREA_VEHICLE_GARAGE, {10228.7, 19031.2}, {1.5, 2.5, 55.69}},
+		{LOCATION_AREA_VEHICLE_CAR, {10243.9, 19081.7}, {1.66406, 3.24902, 84.49}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {10286.9, 19065}, {1.5, 2.5, 28.55}},
+		{LOCATION_AREA_VEHICLE_CAR, {10276.9, 19085.2}, {1.66406, 3.24902, 9.03}},
+		{LOCATION_AREA_VEHICLE_CAR, {10286.2, 19167.7}, {1.66406, 3.24902, 81.98}},
+		{LOCATION_AREA_VEHICLE_GROUND, {10266.5, 19176.6}, {1.8, 3.5, 252.39}},
+		{LOCATION_AREA_VEHICLE_CAR, {10291, 18985.4}, {1.66406, 3.24902, 302.19}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {10314.1, 18990.7}, {1.5, 2.5, 0.98}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {10291.6, 19097.2}, {1.5, 2.5, 225.07}},
+		{LOCATION_AREA_VEHICLE_CAR, {10295, 19150.3}, {1.66406, 3.24902, 80.68}},
+		{LOCATION_AREA_VEHICLE_CAR, {10296.7, 19145.4}, {1.66406, 3.24902, 270.6}},
+		{LOCATION_AREA_VEHICLE_CAR, {10335.2, 18996.7}, {1.66406, 3.24902, 97.02}},
+		{LOCATION_AREA_VEHICLE_CAR, {10349.2, 19035.7}, {1.66406, 3.24902, 352.68}},
+		{LOCATION_AREA_VEHICLE_CAR, {10376.8, 18991.8}, {1.66406, 3.24902, 270.83}},
+		{LOCATION_AREA_VEHICLE_CAR, {10370.9, 19008.5}, {1.66406, 3.24902, 274.75}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {10379.7, 19090.4}, {1.5, 2.5, 8.19}},
+		{LOCATION_AREA_VEHICLE_TRUCK, {10371.6, 19085.4}, {1.8, 4.577, 173.44}},
+		{LOCATION_AREA_VEHICLE_TRUCK, {10435.6, 19076.5}, {1.8, 4.577, 55.39}},
+		{LOCATION_AREA_VEHICLE_TRUCK, {10543.6, 19015.6}, {1.8, 4.577, 329.39}}
+	};
+	 
+	flat[] = // Types
+	// [Type, [posX, posY], [radiusA, radiusB, angle, maxHeight]]
+	{
+	};
+	 
+};
