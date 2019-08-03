@@ -1,0 +1,70 @@
+/* [2017,10,10,13,49] */
+/* CfgWorlds >> Malden >> Names >> malden_v_houdan */
+ 
+areaPosition[]={7418.39, 6119.69}; // Position x, y
+areaRadiusA=505.78; // radius A of the location
+areaRadiusB=432.13; // radius B of the location
+areaAngle=339.14; // Rotation of the location
+demography=CIV; // Demography
+ 
+accessPoints[] = // Types: 0 - generic; 1 - on road; 2 - water; 3 - in forest
+// [Type, [posX, posY], [radiusA, radiusB, angle]]
+{
+};
+ 
+landmarks[] = 
+{
+};
+ 
+class Areas
+{
+	vehicles[] = // Types: 0 - truck or cars; 1 - Cars only; 2 - trucks only; 20 - air; 21 - planes; 22 - helicopters
+	// [Type, [posX, posY], [radiusA, radiusB, angle]]
+	{
+		{LOCATION_AREA_VEHICLE_GROUND, {7007.95, 6041.95}, {1.8, 3.5, 3.33}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {7014.84, 6100.8}, {1.5, 2.5, 102.66}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {7093.51, 6052.51}, {1.5, 2.5, 343.38}},
+		{LOCATION_AREA_VEHICLE_CAR, {7092.96, 6075.06}, {1.5, 2.5, 3.73}},
+		{LOCATION_AREA_VEHICLE_CAR, {7122.1, 6013.63}, {1.5, 2.5, 179.63}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {7114.51, 6023.67}, {1.5, 2.5, 88.04}},
+		{LOCATION_AREA_VEHICLE_CAR, {7103.9, 6107.78}, {1.5, 2.5, 272.1}},
+		{LOCATION_AREA_VEHICLE_CAR, {7124.86, 6236.81}, {1.5, 2.5, 36.4}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {7147.94, 5987.54}, {1.5, 2.5, 278.45}},
+		{LOCATION_AREA_VEHICLE_CAR, {7133.86, 6027.32}, {1.5, 2.5, 6.25}},
+		{LOCATION_AREA_VEHICLE_CAR, {7149.04, 6094.32}, {1.5, 2.5, 182.99}},
+		{LOCATION_AREA_VEHICLE_CAR, {7140.92, 6077}, {1.5, 2.5, 95.14}},
+		{LOCATION_AREA_VEHICLE_CAR, {7137.46, 6126.55}, {1.5, 2.5, 109.6}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {7131.72, 6179.17}, {1.5, 2.5, 261.75}},
+		{LOCATION_AREA_VEHICLE_CAR, {7132.99, 6240.44}, {1.5, 2.5, 88.38}},
+		{LOCATION_AREA_VEHICLE_CAR, {7157.66, 6027.38}, {1.5, 2.5, 90.51}},
+		{LOCATION_AREA_VEHICLE_CAR, {7150.73, 6042.98}, {1.5, 2.5, 83.58}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {7168.21, 6101.42}, {1.5, 2.5, 94.73}},
+		{LOCATION_AREA_VEHICLE_CAR, {7155.66, 6127.39}, {1.5, 2.5, 70.71}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {7171.81, 6128.06}, {1.5, 2.5, 344.27}},
+		{LOCATION_AREA_VEHICLE_GROUND, {7295.98, 5910.22}, {1.8, 3.5, 122.48}},
+		{LOCATION_AREA_VEHICLE_CAR, {7305.07, 6075.42}, {1.5, 2.5, 108.65}},
+		{LOCATION_AREA_VEHICLE_CAR, {7356.24, 6007.86}, {1.5, 2.5, 6.11}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {7443.5, 6119.84}, {1.5, 2.5, 184.55}},
+		{LOCATION_AREA_VEHICLE_CAR, {7526.74, 5960.63}, {1.5, 2.5, 134.2}},
+		{LOCATION_AREA_VEHICLE_CAR, {7692.83, 5889.17}, {1.5, 2.5, 78.38}},
+		{-1, {7726.16, 5900.24}, {10, 9, 281.77}}
+	};
+	 
+	flat[] = // Types
+	// [Type, [posX, posY], [radiusA, radiusB, angle, maxHeight]]
+	{
+		{LOCATION_AREA_FLATMARKET, {7099.13, 6023.24}, {2, 2, 355.39, 1.5}},
+		{LOCATION_AREA_FLATMARKET, {7083.19, 6041.02}, {2, 2, 267.73, 1.5}},
+		{LOCATION_AREA_FLATMARKET, {7100.74, 6035.98}, {2, 2, 180.56, 1.5}},
+		{LOCATION_AREA_FLATMARKET, {7126.18, 6123.1}, {4.59527, 4.89248, 79.74, 1.5}},
+		{LOCATION_AREA_FLATGARDEN, {7129.59, 6204.43}, {3.57561, 2.74132, 27.41, 1.5}},
+		{LOCATION_AREA_FLATSTORAGE, {7126.82, 6246.51}, {2, 2, 0.96, 1.5}},
+		{LOCATION_AREA_FLATMARKET, {7161.7, 5984.16}, {2, 2, 95.58, 1.5}},
+		{LOCATION_AREA_FLATMARKET, {7163.53, 6062.5}, {2, 2, 89.21, 1.5}},
+		{LOCATION_AREA_FLATMARKET, {7155.34, 6098.33}, {2, 2, 182.95, 1.5}},
+		{LOCATION_AREA_FLATMARKET, {7177.27, 6006.49}, {2, 2, 98.8, 1.5}},
+		{LOCATION_AREA_FLATMARKET, {7483.2, 6124.17}, {2, 2, 359.23, 1.5}},
+		{LOCATION_AREA_FLATGARDEN, {7519.02, 5951.83}, {2, 2, 313.41, 1.5}}
+	};
+	 
+};

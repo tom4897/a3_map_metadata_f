@@ -1,0 +1,61 @@
+/* [2017,10,10,13,49] */
+/* CfgWorlds >> Malden >> Names >> malden_v_saintemarie */
+ 
+areaPosition[]={5577.37, 4243.24}; // Position x, y
+areaRadiusA=113.74; // radius A of the location
+areaRadiusB=130.14; // radius B of the location
+areaAngle=0; // Rotation of the location
+demography=CIV; // Demography
+ 
+accessPoints[] = // Types: 0 - generic; 1 - on road; 2 - water; 3 - in forest
+// [Type, [posX, posY], [radiusA, radiusB, angle]]
+{
+	{LOCATION_AREA_ACCESSPOINT, {5218.18, 4175.61}, 82.28},
+	{LOCATION_AREA_ACCESSPOINT, {5219.32, 4495.01}, 146.05},
+	{LOCATION_AREA_ACCESSPOINT, {5257.61, 4052.43}, 61.99},
+	{LOCATION_AREA_ACCESSPOINT_FOREST, {5372.18, 4548.28}, 156},
+	{LOCATION_AREA_ACCESSPOINT, {5452.05, 3768.91}, 56.09},
+	{LOCATION_AREA_ACCESSPOINT_FOREST, {5454.57, 4619.81}, 173.35},
+	{LOCATION_AREA_ACCESSPOINT, {5546.85, 4495.01}, 179.94},
+	{LOCATION_AREA_ACCESSPOINT_FOREST, {5819.06, 4506.98}, 221.18},
+	{LOCATION_AREA_ACCESSPOINT, {5868.91, 3840.59}, 316.38},
+	{LOCATION_AREA_ACCESSPOINT, {5966.51, 4797.3}, 217.95},
+	{LOCATION_AREA_ACCESSPOINT, {6045.43, 4161.23}, 270.84},
+	{LOCATION_AREA_ACCESSPOINT, {6106.94, 4257.37}, 258.91}
+};
+ 
+landmarks[] = 
+{
+};
+ 
+class Areas
+{
+	vehicles[] = // Types: 0 - truck or cars; 1 - Cars only; 2 - trucks only; 20 - air; 21 - planes; 22 - helicopters
+	// [Type, [posX, posY], [radiusA, radiusB, angle]]
+	{
+		{LOCATION_AREA_VEHICLE_GARAGE, {5520.76, 4224.05}, {1.5, 2.5, 185.46}},
+		{LOCATION_AREA_VEHICLE_GROUND, {5509.14, 4230.6}, {1.8, 3.5, 192.39}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {5522.15, 4264.56}, {1.5, 2.5, 255.77}},
+		{LOCATION_AREA_VEHICLE_CAR, {5543.92, 4237.52}, {1.5, 2.5, 97.49}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {5543.15, 4252.12}, {1.5, 2.5, 181.43}},
+		{LOCATION_AREA_VEHICLE_CAR, {5531.48, 4258.8}, {1.5, 2.5, 175.91}},
+		{LOCATION_AREA_VEHICLE_CAR, {5568.3, 4241.34}, {1.5, 2.5, 170.55}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {5555.13, 4267.37}, {1.5, 2.5, 92.16}},
+		{LOCATION_AREA_VEHICLE_CAR, {5579.87, 4214.51}, {1.5, 2.5, 1.68}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {5589.12, 4220.36}, {1.5, 2.5, 4.44}},
+		{LOCATION_AREA_VEHICLE_CAR, {5590.96, 4246.02}, {1.5, 2.5, 90.03}},
+		{LOCATION_AREA_VEHICLE_CAR, {5580.56, 4229.14}, {1.5, 2.5, 91.57}},
+		{LOCATION_AREA_VEHICLE_GARAGE, {5578.98, 4267.15}, {1.5, 2.5, 272.24}},
+		{LOCATION_AREA_VEHICLE_GROUND, {5639.44, 4269.93}, {1.8, 3.5, 346.54}},
+		{LOCATION_AREA_VEHICLE_TRUCK, {5651.75, 4214.49}, {1.8, 3.5, 58.61}}
+	};
+	 
+	flat[] = // Types
+	// [Type, [posX, posY], [radiusA, radiusB, angle, maxHeight]]
+	{
+		{LOCATION_AREA_FLATGARDEN, {5556.62, 4259.46}, {6.18299, 3.84646, 0.8, 5}},
+		{LOCATION_AREA_FLATGARDEN, {5585.86, 4204.09}, {6.18299, 3.21463, 91.55, 5}},
+		{LOCATION_AREA_FLATGARDEN, {5577.44, 4259.47}, {6.18299, 3.84646, 0.12, 5}}
+	};
+	 
+};
